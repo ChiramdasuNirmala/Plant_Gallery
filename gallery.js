@@ -15,6 +15,8 @@ window.onload = () => {
 
         gallery[i].onclick = () => {
             clickedImgIndex = i; //passing cliked image index to created variable (clickedImgIndex)
+
+
             function preview() {
                 currentImg.textContent = newIndex + 1; //passing current img index to currentImg varible with adding +1
                 let imageURL = gallery[newIndex].querySelector("img").src; //getting user clicked img url
